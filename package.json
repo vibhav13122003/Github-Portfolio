@@ -1,0 +1,42 @@
+{
+  "name": "github-clone",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@fortawesome/free-brands-svg-icons": "^6.6.0",
+    "@fortawesome/free-regular-svg-icons": "^6.6.0",
+    "@fortawesome/free-solid-svg-icons": "^6.6.0",
+    "@fortawesome/react-fontawesome": "^0.2.2",
+    "@react-three/drei": "^9.114.0",
+    "@react-three/fiber": "^8.17.9",
+    "@types/node": "20.3.1",
+    "@types/react": "18.2.12",
+    "@types/react-dom": "18.2.5",
+    "autoprefixer": "10.4.14",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.1",
+    "cobe": "^0.6.3",
+    "eslint": "8.42.0",
+    "eslint-config-next": "13.4.5",
+    "framer-motion": "^11.9.0",
+    "lucide-react": "^0.447.0",
+    "next": "13.4.5",
+    "postcss": "8.4.24",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-fontawesome": "^1.7.1",
+    "react-spring": "^9.7.1",
+    "tailwind-merge": "^2.5.2",
+    "tailwindcss": "3.3.2",
+    "tailwindcss-animate": "^1.0.7",
+    "three": "^0.169.0",
+    "three-globe": "^2.32.0",
+    "typescript": "^4.4.2"
+  }
+}
