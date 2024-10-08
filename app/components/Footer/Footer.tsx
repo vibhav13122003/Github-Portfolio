@@ -1,8 +1,8 @@
 // Footer.tsx
-import React from "react";
+export {}; // Makes this file a module
 
 const Footer = () => {
   return <footer>{/* Footer content here */}</footer>;
 };
 
-export default Footer; // Export the component
+export default Footer; // Optional, only if you need to export the component
