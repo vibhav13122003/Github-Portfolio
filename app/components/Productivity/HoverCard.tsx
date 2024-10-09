@@ -2,10 +2,11 @@ import React, { useState, useEffect } from 'react';
 import { useSpring, animated } from "@react-spring/web";
 
 type Props = {
-    children: React.ReactNode
-    backgroundColor: string
-    direction: string
-    left: string
+  children: React.ReactNode;
+  backgroundColor: string;
+  direction: string;
+  left: string;
+  size?: "small" | "default"; // New size prop
 };
 
 const calc = (x: number, y: number): [number, number, number] => [

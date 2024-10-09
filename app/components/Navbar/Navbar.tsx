@@ -17,14 +17,7 @@ const Navbar = (props: Props) => {
         <button className='hidden'></button>
         <div className='flex items-center max-lg:justify-between max-lg:flex-row-reverse'>
           <div className='flex justify-between items-center max-lg:w-full'>
-            <div className='lg:hidden'>
-              <a
-                href=''
-                className='px-2 py-[6px] border-[1px] rounded-md hover:text-neutral-400'
-              >
-                Sign up
-              </a>
-            </div>
+            <div className='lg:hidden'></div>
             <a className='' href='https://github.com'>
               <svg
                 height='32'
@@ -76,7 +69,6 @@ const Navbar = (props: Props) => {
                   <ProductNav />
                   <SolutionNav />
                   <OpenSourceNav />
-                 
                 </ul>
               </nav>
               <div className='lg:flex items-center max-lg:flex-col lg:px-0 px-3 mb-3 lg:mb-0 text-left lg:space-x-4'>
@@ -105,19 +97,12 @@ const Navbar = (props: Props) => {
                     ></path>
                   </svg>
                 </div>
-                <div className='max-lg:flex justify-center max-lg:border-[1px] max-lg:mr-4 rounded-md max-lg:bg-neutral-800'>
-                  <a
-                    href=''
-                    className='hover:text-neutral-400 max-lg:py-2 max-lg:text-[16px] max-lg:font-semibold '
-                  >
-                    Sign in
-                  </a>
-                </div>
+                <div className='max-lg:flex justify-center max-lg:border-[1px] max-lg:mr-4 rounded-md max-lg:bg-neutral-800'></div>
                 <a
-                  href=''
+                  href='https://github.com/vibhav13122003'
                   className='max-lg:hidden px-2 py-[5px] border-[1px] rounded-md hover:text-neutral-400 '
                 >
-                  Sign up
+                  My Github
                 </a>
               </div>
             </div>

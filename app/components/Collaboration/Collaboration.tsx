@@ -97,8 +97,9 @@ const Collaboration = (props: Props) => {
                 backgroundColor='#ffa28b'
                 direction='flex-col'
                 left='-400px'
+                
               >
-                <div className='md:flex flex-col  flex-1 p-8 sm:p-10 lg:py-16 lg:pl-16 lg:pr-32 '>
+                <div className='md:flex flex-col h-450px flex-1 p-8 sm:p-10 lg:py-16 lg:pl-16 lg:pr-32 '>
                   <p className=' text-xl md:text-2xl mb-6 font-medium text-[#7d8590]'>
                     <span className='text-[#2f81f7] font-semibold'>Arcade</span>{" "}
                     is an Augmented Reality-based web platform where students
@@ -520,7 +521,6 @@ const Collaboration = (props: Props) => {
         style={{ transitionDelay: "300ms" }}
       >
         <span className='text-[#ffa28b]'>My Experience.</span>
-    
       </h3>
       <Timeline />
       <motion.div
