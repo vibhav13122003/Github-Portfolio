@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 import { TypewriterEffectSmooth } from "../../../components/ui/typewriter-effect";
 import { Meteors } from "../Footer/Meteors";
-
+//asasas
 type Props = {};
 
 const Hero = (props: Props) => {
