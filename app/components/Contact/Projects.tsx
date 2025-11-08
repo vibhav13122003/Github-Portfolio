@@ -134,7 +134,7 @@ const Projects = (props: Props) => {
             <a
               onMouseEnter={() => setHovered(true)}
               onMouseLeave={() => setHovered(false)}
-              href=''
+              href='https://drive.google.com/file/d/18aAeqIrJUz05SMO4GaLkFrKOgAqkBXvu/view?usp=drive_link'
               className='py-1 inline-block text-xl text-white font-semibold'
             >
               Resume

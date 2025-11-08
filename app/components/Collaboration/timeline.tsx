@@ -38,6 +38,12 @@ const Timeline: React.FC = () => {
       description:
         " Spearheaded a team of 3 developers to design and build an innovative platform enabling users to convert  handwritten text into digital fonts, improving document digitization efficiency.",
     },
+    {
+      date: "June 2025 - October 2025",
+      title: "Full-Stack Developer",
+      description:
+        "Engineered and maintained RESTful APIs using Node.js & Express.js,Built responsive React.js interfaces with Tailwind CSS, enhancing cross-device accessibility.Collaborated in Agile sprints using GitHub, CI/CD pipelines, and version control best practices.",
+    },
   ];
 
   return (

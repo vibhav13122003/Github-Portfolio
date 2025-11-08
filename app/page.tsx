@@ -57,11 +57,13 @@ export default function Home() {
               <li className='flex gap-4'>
                 Vibhav Bhartiya
                 <a href='mailto:vibhavbhartiya13@gmail.com'>
-                  bhartiyavibhav@gmail.com
+                  vibhavbhartiya13@gmail.com
                 </a>
               </li>
-              <li className='flex gap-4'>Github-Portfolio@2024
-                 <a href='https://github.com/vibhav13122003'>Github</a> </li>
+              <li className='flex gap-4'>
+                Github-Portfolio@2024
+                <a href='https://github.com/vibhav13122003'>Github</a>{" "}
+              </li>
             </ul>
           </div>
         </div>

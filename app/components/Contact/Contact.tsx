@@ -81,10 +81,10 @@ const Contact = (props: Props) => {
             style={{ transitionDelay: "300ms" }}
           >
             <p className='text-[#939aff]'>
-             You can Contact me using following workflow.
+              You can Contact me using following workflow.
             </p>
-            With me, clients can secure their code in minutes and
-            organizations can automatically comply with the demands.
+            With me, clients can secure their code in minutes and organizations
+            can automatically comply with the demands.
           </h3>
         </motion.div>
       </motion.div>
@@ -93,7 +93,7 @@ const Contact = (props: Props) => {
           <div className='text-[#7d8590] p-6'>
             <div className='font-medium cursor-pointer'>
               <a href='mailto:vibhavbhartiya13@gmail.com'>
-                bhartiyavibhav@gmail.com
+                vibhavbhartiya13@gmail.com
               </a>
             </div>
             <span className='text-[12px] f6'>on: push</span>
