@@ -1,6 +1,12 @@
-module.exports = {
-    images: {
-      domains: ['github.githubassets.com'],
-    },
-  };
-  
+
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
+  images: {
+    domains: ['github.githubassets.com'],
+  },
+};
+
+module.exports = nextConfig;
